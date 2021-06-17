@@ -27,9 +27,10 @@ body {
 
 .card_header > p {
   font-size: 20px;
-  padding-top: 15px;
+  padding: 15px;
   overflow: hidden;
   white-space: nowrap;
+  text-overflow: ellipsis;
 }
 
 .card-text {
@@ -60,6 +61,7 @@ img {
   margin: 10px;
   overflow: hidden;
   white-space: nowrap;
+  text-overflow: ellipsis;
 }
 
 .card-button-message {
@@ -70,6 +72,8 @@ img {
   color: black;
   margin: 10px;
   overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 
 .button {
