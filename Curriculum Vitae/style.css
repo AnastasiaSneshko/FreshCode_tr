@@ -1,0 +1,82 @@
+body {
+    margin: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+header {
+    display: none;
+}
+
+.title-main {
+    font-size: 40px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.second {
+    margin-top: 100px;
+}
+
+
+h2 {
+    font-size: 25px;  
+}
+
+h3 {
+    font-weight: 900;
+    font-size: 20px; 
+    margin-top: 20px; 
+}
+
+h3::after {
+    content: "";
+    display: block;
+    height: 1px;
+    background-color: grey;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.color{
+    /* text-transform: uppercase;
+    font-weight: 700; */
+    color: slateblue;
+}
+
+.next {
+    margin-top: 15px;
+}
+
+.header-left {
+    float: left;
+}
+
+.header-right {
+    text-align: right;
+}
+
+
+
+.table-td {
+    padding-right: 30px;
+}
+
+.table-title {
+    font-size: 20px;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.bottom {
+    margin-top: 10px;
+}
+
+.upper {
+    text-transform: uppercase;
+}

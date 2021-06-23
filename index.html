@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <!-- nav>ul>li*2
+
+  <nav>
+    <ul>
+      <li></li>
+      <li></li>
+    </ul>
+  </nav>
+
+  nav>ul>li>a[href="https://google.com/"]{Google.com}
+
+  <nav>
+    <ul>
+      <li><a href="https://google.com/">Google.com</a></li>
+    </ul>
+  </nav>
+  
+  nav>ul>li{Глобальные ссылки}>a[href="https://google.com/"]{Google.com}+li>a[href="https://ru.wikipedia.org/"]{Wikipedia.org}
+
+  <nav>
+    <ul>
+      <li>Глобальные ссылки
+        <a href="https://google.com/">Google.com</a>
+        <li><a href="https://ru.wikipedia.org/">Wikipedia.org</a></li>
+      </li>
+    </ul>
+  </nav> -->
+
+<!-- 
+  nav>ul>(li{Глобальные ссылки}>ul>(li>a[href="https://google.com/"]{Google.com})+(li>a[href="https://ru.wikipedia.org/"]{Wikipedia.org}))+(li{Локальные ссылки}>ul>(li>a[href="article$"]{To article $})*15) -->
+
+  <nav>
+    <ul>
+      <li>Глобальные ссылки
+        <ul>
+          <li><a href="https://google.com/">Google.com</a></li>
+          <li><a href="https://ru.wikipedia.org/">Wikipedia.org</a></li>
+        </ul>
+      </li>
+      <li>Локальные ссылки
+        <ul>
+          <li><a href="article1">To article 1</a></li>
+          <li><a href="article2">To article 2</a></li>
+          <li><a href="article3">To article 3</a></li>
+          <li><a href="article4">To article 4</a></li>
+          <li><a href="article5">To article 5</a></li>
+          <li><a href="article6">To article 6</a></li>
+          <li><a href="article7">To article 7</a></li>
+          <li><a href="article8">To article 8</a></li>
+          <li><a href="article9">To article 9</a></li>
+          <li><a href="article10">To article 10</a></li>
+          <li><a href="article11">To article 11</a></li>
+          <li><a href="article12">To article 12</a></li>
+          <li><a href="article13">To article 13</a></li>
+          <li><a href="article14">To article 14</a></li>
+          <li><a href="article15">To article 15</a></li>
+        </ul>
+      </li>
+    </ul>
+  </nav>
+</body>
+</html>
