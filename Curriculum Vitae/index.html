@@ -10,11 +10,11 @@
   </head>
 
   <body>
-    <header>
+    <header class="head">
       <h1>Curriculum vitae</h1>
     </header>
     <article>
-      <section>
+      <header>
         <div class="header-left">
           <h2>
             <span class="title-main">Gary Oldman</span><br />Managing Director
@@ -29,7 +29,7 @@
             <a href="mailto:gary.oldman@gmail.co.uk">gary.oldman@gmail.co.uk</a>
           </address>
         </div>
-      </section>
+      </header>
       <section>
         <h3>Personal Statement</h3>
         <p>
@@ -46,10 +46,16 @@
           difficult times.
         </p>
       </section>
+
       <section>
         <h3>Personal Experience</h3>
         <table>
-          <thead></thead>
+          <thead class="table-thead">
+            <tr>
+              <td>Years</td>
+              <td>Place</td>
+            </tr>
+          </thead>
           <tbody>
             <tr>
               <td class="table-td">
@@ -58,9 +64,11 @@
               </td>
               <td>
                 <p class="table-title">Managing Director - Next PLC, London</p>
-                <p>- Developing and executing the company's business strategies</p>
-                <p>- Providing strategic advice to th board</p>
-                <p>- Overhaul of the current business plan to focus on sustainable growth</p>
+                <ul>
+                  <li class="table-li">Developing and executing the company's business strategies</li>
+                  <li class="table-li">Providing strategic advice to th board</li>
+                  <li class="table-li">Overhaul of the current business plan to focus on sustainable growth</li>
+                </ul>
               </td>
             </tr>
             <tr>
@@ -70,9 +78,11 @@
               </td>
               <td>
                 <p class="table-title bottom"> Sales Director - Selfridges, London</p>
-                <p>- Developing weekly/monthly/annual targets for the group in order to achieve growth targets</p>
-                <p>- Enabling sales improvements throughout the store and online channels</p>
-                <p>- Enhancing product mix development</p>
+                <ul>
+                  <li class="table-li">Developing weekly/monthly/annual targets for the group in order to achieve growth targets</li>
+                  <li class="table-li">Enabling sales improvements throughout the store and online channels</li>
+                  <li class="table-li">Enhancing product mix development</li>
+                </ul>
               </td>
             </tr>
           </tbody>
@@ -81,7 +91,12 @@
       <section>
         <h3>Education</h3>
         <table>
-          <thead></thead>
+          <thead class="table-thead">
+            <tr>
+              <td>Years</td>
+              <td>Place</td>
+            </tr>
+          </thead>
           <tbody>
             <tr>
               <td class="table-td">
@@ -90,14 +105,13 @@
               <td>
                 <p class="table-title">Role of Managing Director</p>
                 <p>INPD</p>
-                <p>- Leading and motivating a successful organisation</p>
-                <p>- Effectively managing change at any given time.</p>
-                <p>- Building and maintaining an effective management team</p>
-                <p>
-                  - Assuming full accountability for the Board for all company
-                  operations
-                </p>
-                <p>- Understanding good corporate governance</p>
+                <ul>
+                  <li class="table-li">Leading and motivating a successful organisation</li>
+                  <li class="table-li">Effectively managing change at any given time</li>
+                  <li class="table-li">Building and maintaining an effective management team</li>
+                  <li class="table-li">Assuming full accountability for the Board for all company operations</li>
+                  <li class="table-li">Understanding good corporate governance</li>
+                </ul>
               </td>
             </tr>
             <tr>
@@ -140,6 +154,7 @@
         </ul>
       </section>
     </article>
+
     <article>
       <h2 class="second"><span class="title-main">Johne Brown</span><br/>Creative director</h2>
       <section>

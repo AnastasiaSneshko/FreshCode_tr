@@ -5,7 +5,7 @@ body {
     line-height: 1.5;
 }
 
-header {
+.head {
     display: none;
 }
 
@@ -61,10 +61,13 @@ h3::after {
     text-align: right;
 }
 
-
-
 .table-td {
     padding-right: 30px;
+}
+
+.table-thead {
+    display: none;
+    position: absolute;
 }
 
 .table-title {
@@ -79,4 +82,8 @@ h3::after {
 
 .upper {
     text-transform: uppercase;
+}
+
+.table-li {
+    list-style: "- ";
 }
